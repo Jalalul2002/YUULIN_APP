@@ -1,139 +1,72 @@
 ## Intro 
-- Artikel ini membahas contoh dokumen pembangunan teknologi UbiCom dengan tema Automatic Mental and Physical Refreshment using Smart Home Technologies 
+- Rancangan Pembuatan Aplikasi untuk Navigasi Perkotaan berbasis Augmented Reality dengan Memanfaatkan Sensor Smartphone. 
 
 ## Latar Belakang 
-Pada tahap ini kita menunjukan alasan utama mengapa membuat produk UbiCom ini. Contoh isi: 
-- Fakta-fakta berbagai sumber terkait perlunya solusi terhadap masalah kesehatan fisik dan mental 
-- Peluang Smart Home dalam membantu otomasi relaksasi fisik mental 
+Pembuatan Aplikasi ini dilatarbelakangi oleh:
+- **Pertumbuhan AR dan Perkembangan Teknologi**: AR adalah teknologi yang semakin berkembang dengan cepat, dengan peningkatan perangkat keras dan perangkat lunak yang semakin canggih. Ini menciptakan peluang besar dalam pengembangan sistem navigasi AR yang lebih baik.
+- **Tantangan dalam Navigasi Sehari-Hari**: Orang-orang di seluruh dunia menghadapi tantangan dalam navigasi sehari-hari, baik dalam berkendara, berjalan kaki, bersepeda, atau menggunakan transportasi umum. Masalah seperti kemacetan, keselamatan, atau kesulitan menemukan lokasi yang diinginkan sering kali menjadi masalah yang harus diatasi.
+- **Potensi Integrasi Informasi Kontekstual**: Teknologi AR memungkinkan integrasi informasi kontekstual, seperti data cuaca, lalu lintas, atau objek sekitar, ke dalam pengalaman navigasi. Ini menciptakan peluang untuk meningkatkan efektivitas dan relevansi panduan navigasi.
+- **Peningkatan Pengalaman Wisata dan Pariwisata**: Dalam konteks pariwisata, penggunaan AR dalam navigasi dapat meningkatkan pengalaman pengunjung dengan memberikan informasi tentang objek wisata, sejarah lokal, atau rekomendasi makanan.
 
 ## Branding 
-Pada tahap ini kita mengeksplorasi *branding* dari produk UbiCom yang dibuat. Contoh:
-- Merk: **Piperair** 
-- Inspirasi merk: Nama latin daun sirih (Pipera) yang dipakai banyak sebagai penyembuh, serta air yang berarti udara
-- Tagline: Teknologi rumah penyembuh 
-- Campaign: Bagaimana menjadikan rumah / kostan / kontrakan dan perangkat wearable yang dimiliki sebagai pendukung penyegaran kondisi mental dan fisik
+- Merk: **yuulin** 
+- Inspirasi merk: Kata dari Bahasa Sunda yaitu Yu (Ayo) dan Ulin (Main) yang berarti ajakan untuk bermain.
+- Tagline: Pengalaman Navigasi Berbasis Augmented Reality 
+- Campaign: Meningkatkan pengalaman Eksplorasi daerah dengan Augmented Reality.
 - Target user:
-  - Usia 7+ 
-  - Memiliki indikasi masalah kesehatan mental dan fisik 
+  - Usia 13+
+  - Turis
+  - Menginginkan eksplorasi daerah yang lebih menarik
+  - Memiliki keingintahuan lebih untuk mengenal daerah (Pendidikan)
 - User experience theme:
-  - Mudah dikonfigurasi dan digunakan
-  - Terknoneksi dengan aplikasi berbasis mobile 
+  - Navigasi yang intuitif / Sederhana
+  - Terhubung dengan Layanan Global Positioning System (GPS)
+  - Aksesibilitas yang mudah, dapat digunakan setiap kalangan
+  - Adanya Interaksi atau Panduan Suara
+
 
 ## User Story
-Pada tahap ini kita mengeksplorasi kebutuhan prioritas dari para pengguna untuk kita wujudkan sebagai fitur pada sistem atau aplikasi yang akan dibuat.
-User story [[1]](https://www.mountaingoatsoftware.com/agile/user-stories) memudahkan kita membuat prioritas fitur-fitur untuk dikerjakan untuk jangka waktu tertentu.
-
 |Sebagai|Saya ingin bisa|Sehingga|Prioritas
 |---|---|---|---|
-|Sistem|Merekognisi kondisi mental dan fisik pengguna|Bisa memilih respon yang sesuai untuk pengguna|⭐⭐⭐⭐⭐|
-|Sistem smart home|&raquo; Merekognisi kondisi mental dan fisik dari citra ekspresi wajah dari CCTV|Bisa menjadi input kalkulasi respon yang sesuai untuk pengguna|⭐⭐⭐⭐⭐|
-|Sistem smart home|&raquo; Merekognisi kondisi mental dan fisik dari citra gestur tubuh dari CCTV|Bisa menjadi input kalkulasi respon yang sesuai untuk pengguna|⭐⭐⭐|
-|Sistem smart home|&raquo; Merekognisi kondisi mental dan fisik dari suara dari mic|Bisa menjadi input kalkulasi respon yang sesuai untuk pengguna|⭐⭐⭐⭐|
-|Sistem|&raquo; Merekognisi kondisi lingkungan seperti jam, musim, cuaca, dan temperatur udara|Bisa menjadi input kalkulasi respon yang sesuai untuk pengguna|⭐⭐⭐⭐⭐|
-|Sistem|Memberikan respon yang membantu penyegaran kondisi mental dan fisik|Pengguna bisa lebih terbantu kondisi mental dan fisiknya|⭐⭐⭐⭐⭐|
-|Sistem smart home|&raquo; Memberikan respon berupa suara orang yang menyesuaikan kondisi fisik dan mental|Pengguna bisa lebih terbantu kondisi mental dan fisiknya|⭐⭐⭐⭐⭐|
-|Sistem smart home|&raquo; Memberikan respon berupa musik latar yang menyesuaikan kondisi fisik dan mental|Pengguna bisa lebih terbantu kondisi mental dan fisiknya|⭐⭐⭐⭐|
-|Sistem smart home|&raquo; Memberikan respon berupa pencahayaan yang menyesuaikan kondisi fisik dan mental|Pengguna bisa lebih terbantu kondisi mental dan fisiknya|⭐⭐⭐|
+|Sistem|Melakukan Pemindaian pada objek|Bisa memberikan Respon sesuai informasi Objek|⭐⭐⭐⭐⭐|
+|Sistem AR|&raquo; Menampilkan Informasi terkait Objek |Pengguna Mendapatkan Informasi terkait objek|⭐⭐⭐⭐⭐|
+|Sistem AR|&raquo; Menampilkan Petunjuk Arah 3D sesuai tujuan|Mempermudah pengguna dalam bernavigasi secara Real-Time|⭐⭐⭐|
+|Sistem AR|&raquo; Memberikan petunjuk arah berdasarkan GPS|Pengguna dapat melalui arah dan mendapatkan gambaran lokasi|⭐⭐⭐⭐|
+|Sistem|Memberikan Notifikasi Sampai Tujuan|Pengguna Dapat melakukan Pemindaian Lokasi|⭐⭐⭐⭐⭐|
+|Sistem|Menampilkan Map berdasarkan Lokasi Terkini|Pengguna dapat melakukan Pencarian Lokasi yang dituju|⭐⭐⭐⭐⭐|
 
 ## Metode dan Algoritma 
-Pada tahap ini kita menjelaskan metode dan algoritma yang digunakan pada setiap komponen teknologi UbiCom. Contoh:
 - Sensor:
-  - Face recognition: MobileNet. penjelasan . . .
-  - Expression recognition: MobileNet. penjelasan . . .
-  - Gesture recognition: YOLOv7. penjelasan . . .
-  - Speech recognition: PANN. penjelasan . . .
-  - Fuzzy logic
+  - Lokasi
+  - Kamera
+  - Waktu
 - Responder:
-  - Speech synthesis: ASGAN
-  - Fuzzy logic
+  - Smartphone
+  - Spatial Map
 - Mobile software development
-- Edge software development
 
-## Struktur Data 
-Pada tahap ini kita mengeksplorasi struktur data yang digunakan pada teknologi UbiCom. Contoh:
 
-<pre class="mermaid">
-erDiagram
-  PENGGUNA {
-    int id_pengguna
-    string username
-    string email
-    string password
-    string nama_lengkap
-    vector model_wajah
-  }
-  PENGGUNA ||--o{ KONDISI : dideteksi 
-  KONDISI {
-    int id_kondisi
-    int id_pengguna
-    int id_tipe_kondisi
-    datetime waktu_deteksi
-  }
-  KONDISI ||--o{ RESPON : diberikan 
-  RESPON {
-    int id_respon
-    int id_kondisi
-    int id_tipe_respon
-    json konten_respon
-    datetime waktu_respon
-  }
-</pre>
-- Pada tahap ini kita mengeksplorasi dan menganalisis bentuk struktur data yang mampu memfasilitasi *user story* yang ada, maupun yang kemungkinan besar dibutuhkan di kemudian hari
-- Kita akan merepresentasikan Entitas pada aplikasi dalam bentuk tabel Entitas dan Atribut
+## Struktur Data
 
 ## Arsitektur Sistem 
-<pre class="mermaid">
-flowchart BT 
-  subgraph cloud server
-    WS1[Web service: Python] <--> BE1[Database: PostgreSQL]
-  end
-
-  subgraph edge server: Raspberry Pi
-    BE2[Program Deteksi: Python] 
-    BE3[Program Respon: Python] 
-    BE2 --> BE4[Broker: NATS]
-    BE3 <--> BE4
-    BE4 <--> BE5[Cloud communicator: Python]
-    BE5 --> WS1
-  end
-
-  subgraph mobile phone 
-    MA1[Mobile app: Flutter] <--> WS1
-  end
-
-  subgraph sensors 
-    S1[CCTV] --> BE2 
-    S2[Mic] --> BE2 
-    S3[Sensor] --> BE2 
-  end
-  subgraph responders 
-
-    BE3 --> R1[Speaker] 
-    BE3 --> R2[Lampu] 
-  end
-</pre>
-Pada tahap ini kita merancang arsitektur berikut teknologi yang terdapat pada setiap komponen pembentuk aplikasi.
+![Alt Arsitektur Sistem](img/arsitektur.png)
 
 ## Deskripsi Teknologi 
-Pada tahap ini kita menjelaskan setiap teknologi hardware dan software yang digunakan dalam pembangunan sistem. Contoh:
 - Mesin komputasi
-  - Edge server: Raspberry Pi. Penjelasan . . .
-  - Cloud server: AWS EC2 Debian. Penjelasan . . . 
-  - Smart phone: Android & iPhone. Penjelasan . . .
+  - GPS API: GPS API adalah antarmuka pemrograman aplikasi yang memungkinkan pengembang untuk mengakses data lokasi dan informasi terkamelalui Global Positioning System (GPS) atau sistem penentuan lokasi lainnya. GPS adalah teknologi yang menggunakan sinyal satelit untuk menentukan posisi geografis yang akurat di permukaan bumi. API ini memungkinkan aplikasi untuk berkomunikasi dengan perangkat GPS atau sumber data lokasi lainnya dan mengintegrasikan informasi ini ke dalam aplikasi. Fungsi dari GPS ini yaitu Mendapatkan Lokasi Geografis, Pelacakan Realtime, Pencarian Lokasi, Petunjuk Arah atau Navigasi, Integrasi Peta, Geo-Fencing, Pengukuran Jarak dan Kecepatan.
+  - Smartphone: Android, Android adalah sistem operasi (OS) yang dikembangkan oleh Google untuk perangkat mobile dan tablet. Android didasarkan pada kernel Linux dan menjadi salah satu sistem operasi mobile yang paling populer dan luas digunakan di seluruh dunia. 
 - Software development
-  - Mobile development: Flutter. Penjelasan . . .
-  - Backend developer: FastAPI. Penjelasan . . .
-  - PubSub: NATS. Penjelasan . . .
+  - Mobile development: Java/Kotlin/C#, Pengembangan aplikasi mobile pada proses menciptakan aplikasi untuk perangkat mobile, seperti smartphone dan tablet, menggunakan bahasa pemrograman Java atau Kotlin. Java adalah salah satu bahasa pemrograman yang telah lama digunakan dalam pengembangan aplikasi mobile, terutama untuk platform Android. Sedangkan Kotlin adalah bahasa pemrograman lain yang semakin populer untuk pengembangan Android. Kotlin adalah bahasa yang sepenuhnya kompatibel dengan Java dan seringkali dianggap lebih modern dan ekspresif. C# (dibaca "C sharp") adalah bahasa pemrograman yang dikembangkan oleh Microsoft pada awal tahun 2000. Ini adalah bahasa pemrograman yang sangat populer dan digunakan secara luas untuk berbagai jenis pengembangan perangkat lunak.
+  - Augmented Reality: Unity, Unity adalah lingkungan pengembangan permainan yang kuat yang juga digunakan untuk pengembangan aplikasi AR.
 - Sensor 
-  - CCTV: Merk. Penjelasan . . .
-  - Mic: Merk. Penjelasan . . .
-  - Sensor temperature: Merk. Penjelasan . . .
-  - Web service cuaca: URL. Penjelasan . . .
+  - Kamera: Smartphone
+  - Lokasi: Smartphone
+  - Waktu: Smartphone
 - Responder 
-  - Mic: Merk. Penjelasan . . .
-  - Lampu: Merk. Penjelasan . . .
+  - Smartphone
+
 
 ## User Experience (UX) Design 
-
-- Pada tahap ini kita mengeksplorasi alur interaksi pengguna yang paling praktis dan efektif untuk setiap fitur.
-- Ada banyak tools yang bisa digunakan mulai dari yang open source seperti [**Inkscape** (yang saya gunakan)](https://inkscape.org/), Penpot, lalu yang gratis hingga berbayar seperti Figma.
+![Alt Awal](img/1.png)
+![Alt AR_Nav](img/2.png)
+![Alt AR_Info](img/3.png)
