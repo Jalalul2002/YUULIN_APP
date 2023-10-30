@@ -62,6 +62,7 @@ Pembuatan Aplikasi ini dilatarbelakangi oleh:
   - Kamera: Smartphone
   - Lokasi: Smartphone
   - Waktu: Smartphone
+  - Magnetometer = Smartphone
 - Responder 
   - Smartphone
 
