@@ -40,6 +40,7 @@ Pembuatan Aplikasi ini dilatarbelakangi oleh:
   - Lokasi
   - Kamera
   - Waktu
+  - Magnetometer
 - Responder:
   - Smartphone
   - Spatial Map
