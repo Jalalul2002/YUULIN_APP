@@ -1,6 +1,8 @@
 ## Intro 
 - Rancangan Pembuatan Aplikasi untuk Navigasi Perkotaan berbasis Augmented Reality dengan Memanfaatkan Sensor Smartphone. 
 
+Check The Apllication: https://jalalul2002.github.io/yuulin_app/
+
 ## Latar Belakang 
 Pembuatan Aplikasi ini dilatarbelakangi oleh:
 - **Pertumbuhan AR dan Perkembangan Teknologi**: AR adalah teknologi yang semakin berkembang dengan cepat, dengan peningkatan perangkat keras dan perangkat lunak yang semakin canggih. Ini menciptakan peluang besar dalam pengembangan sistem navigasi AR yang lebih baik.
