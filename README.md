@@ -41,6 +41,7 @@ Pembuatan Aplikasi ini dilatarbelakangi oleh:
   - Kamera
   - Waktu
   - Magnetometer
+  - Accelerometer
 - Responder:
   - Smartphone
   - Spatial Map
@@ -58,12 +59,15 @@ Pembuatan Aplikasi ini dilatarbelakangi oleh:
   - Smartphone: Android, Android adalah sistem operasi (OS) yang dikembangkan oleh Google untuk perangkat mobile dan tablet. Android didasarkan pada kernel Linux dan menjadi salah satu sistem operasi mobile yang paling populer dan luas digunakan di seluruh dunia. 
 - Software development
   - Mobile development: Java/Kotlin/C#, Pengembangan aplikasi mobile pada proses menciptakan aplikasi untuk perangkat mobile, seperti smartphone dan tablet, menggunakan bahasa pemrograman Java atau Kotlin. Java adalah salah satu bahasa pemrograman yang telah lama digunakan dalam pengembangan aplikasi mobile, terutama untuk platform Android. Sedangkan Kotlin adalah bahasa pemrograman lain yang semakin populer untuk pengembangan Android. Kotlin adalah bahasa yang sepenuhnya kompatibel dengan Java dan seringkali dianggap lebih modern dan ekspresif. C# (dibaca "C sharp") adalah bahasa pemrograman yang dikembangkan oleh Microsoft pada awal tahun 2000. Ini adalah bahasa pemrograman yang sangat populer dan digunakan secara luas untuk berbagai jenis pengembangan perangkat lunak.
-  - Augmented Reality: Unity, Unity adalah lingkungan pengembangan permainan yang kuat yang juga digunakan untuk pengembangan aplikasi AR.
+  - Augmented Reality: 
+    - Unity, Unity adalah lingkungan pengembangan permainan yang kuat yang juga digunakan untuk pengembangan aplikasi AR.
+    - AR.js, Salah satu library dari Javascript yang untuk pembuatan Augmented Reality
+    - AFRAME, Fitur pada AR.js untuk mengakses Augmented Reality pada Browser disetiap Device, baik smartphone, laptop, komputer, dal lainnya.
 - Sensor 
   - Kamera: Smartphone
   - Lokasi: Smartphone
   - Waktu: Smartphone
-  - Magnetometer = Smartphone
+  - Magnetometer: Smartphone
 - Responder 
   - Smartphone
 
@@ -72,3 +76,4 @@ Pembuatan Aplikasi ini dilatarbelakangi oleh:
 ![Alt Awal](img/1.png)
 ![Alt AR_Nav](img/2.png)
 ![Alt AR_Info](img/3.png)
+![Alt AR_Info_Detail](img/4.png)
