@@ -2,6 +2,7 @@
 - Rancangan Pembuatan Aplikasi untuk Navigasi Perkotaan berbasis Augmented Reality dengan Memanfaatkan Sensor Smartphone. 
 
 Check The Apllication: https://jalalul2002.github.io/yuulin_app/
+Demontration of Application: https://youtube.com/shorts/PDALJSPnYE8?feature=share
 
 ## Latar Belakang 
 Pembuatan Aplikasi ini dilatarbelakangi oleh:
